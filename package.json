@@ -1,5 +1,25 @@
 {
   "dependencies": {
     "prompt-sync": "^4.2.0"
-  }
+  },
+  "name": "projetobiblioteca",
+  "version": "1.0.0",
+  "description": "",
+  "main": "projeto.js",
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yosephrigoni04/ProjetoBiblioteca.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/yosephrigoni04/ProjetoBiblioteca/issues"
+  },
+  "homepage": "https://github.com/yosephrigoni04/ProjetoBiblioteca#readme"
 }
