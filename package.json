@@ -1,12 +1,8 @@
 {
-  "dependencies": {
-    "prompt-sync": "^4.2.0"
-  },
   "name": "projetobiblioteca",
   "version": "1.0.0",
   "description": "",
-  "main": "projeto.js",
-  "devDependencies": {},
+  "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -21,5 +17,8 @@
   "bugs": {
     "url": "https://github.com/yosephrigoni04/ProjetoBiblioteca/issues"
   },
-  "homepage": "https://github.com/yosephrigoni04/ProjetoBiblioteca#readme"
+  "homepage": "https://github.com/yosephrigoni04/ProjetoBiblioteca#readme",
+  "dependencies": {
+    "prompt-sync": "^4.2.0"
+  }
 }
