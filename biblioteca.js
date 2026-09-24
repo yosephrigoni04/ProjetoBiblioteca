@@ -9,7 +9,7 @@ function cadastrarLivro(){
         titulo: prompt("Título do livro: "),
         autor: prompt("Autor: "),
         genero: prompt("Gênero: "),
-        status: "quero ler"
+        status: "[quero ler]"
     }
 
     livros.push(livro)
