@@ -1,8 +1,22 @@
 import promptSync from 'prompt-sync';
 const prompt = promptSync();
 
-const livro = []
+const livros = []
 let opcao
+let livro = {
+    titulo: "",
+    autor: "",
+    genero: ""
+}
+
+function cadastrarLivro(livro){
+    livro.titulo = prompt("Título do livro: ")
+    livro.autor = prompt("Autor: ")
+    livro.genero = prompt("Gênero: ")
+    livros.push(livro)
+    console.log("Livro cadastrado com sucesso!")
+    console.log(livros)
+}
 
 do{
     console.log("=== Biblioteca Pessoal ===");
@@ -15,7 +29,8 @@ do{
     switch(opcao){
         case "1":
             console.log("====")
-            console.log("1. Cadastrar livro")
+            console.log("1. Insira as informações do livro a ser cadastrado:")
+            cadastrarLivro(livro)
             break
         case "2":
             console.log("====")
@@ -31,7 +46,7 @@ do{
             break
         case "0":
             console.log("====")
-            console.log("Saíndo do sistema...")
+            console.log("Saíndo do sistema...Até logo!")
             break
         default:
             console.log("Digite uma opção válida")
